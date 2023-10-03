@@ -190,7 +190,7 @@ nav {
     border-radius: 9px;
     margin-left: 10px;
 }
-.Scroll-container {
+.container {
     display: flex;
   flex-wrap: wrap;
   padding-inline: 3vw;
