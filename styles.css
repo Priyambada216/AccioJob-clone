@@ -1,0 +1,46 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Inter:wght@700&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'ABeeZee', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+.topbar{
+ background-color: white;
+}
+.topbar .logo{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rightnav{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+}
+.rightnav span{
+    padding-right: 5px;
+    font-size: 14px;
+    color:#4F4F4F;
+}
+.topbar .rightnav a{
+ text-decoration: none;
+ color:#4F4F4F;
+ font-size: 14px;
+ font-weight: 400;
+}
+.note p{
+padding-top: 10px;
+height: 25px;
+font-weight: 400;
+}
