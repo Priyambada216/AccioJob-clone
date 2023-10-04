@@ -6,8 +6,6 @@
   margin: 0px;
   padding: 0px;
   font-family: "ABeeZee", sans-serif;
-  font-family: "Inter", sans-serif;
-  font-family: "Roboto", sans-serif;
 }
 nav {
   position: fixed;
@@ -196,6 +194,35 @@ nav {
   padding-inline: 3vw;
   justify-content: space-around;
   }
+  .top {
+    padding-top: 30px ;
+  }
+  .trow{
+    padding: 0px 20px;
+  }
+  .trow-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .feedbacks{
+    padding-top: 30px;
+  
+  }
+  .card-2 {
+width: 398px;
+height: 261px;
+padding: 24px;
+border-radius: 10px;
+border: 2px;
+gap: 15px;
+
+  }
+  .arrow {
+    position: relative;
+    overflow: -moz-hidden-unscrollable;
+    top: 40px;
+    left: 600px;
+  }
   
 @media screen and (max-width:480px){
     .topbar{
@@ -231,5 +258,21 @@ nav {
       position: absolute;
       left: 200px;
      bottom: -350px;
+    }
+    .Hiring-Partners{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column
+    }
+    .arrow {
+      display: none;
+    }
+    .beginner-tag{
+      display: none;
+    }
+    .hero-content{
+      text-align: center;
+      
     }
 }
